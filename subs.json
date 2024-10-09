@@ -1,0 +1,97 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "local-dns",
+        "address": "local",
+        "detour": "direct-out"
+      },
+      {
+        "tag": "cloudflare-dns",
+        "address": "https://1.1.1.1/dns-query",
+        "address_resolver": "local-dns",
+        "detour": "proxy-out"
+      }
+    ],
+    "rules": [
+      {
+        "domain": "your.server.example.com",
+        "server": "local-dns"
+      },
+      {
+        "rule_set": "antizapret",
+        "server": "cloudflare-dns"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 1080,
+      "set_system_proxy": true,
+      "sniff": true,
+      "domain_strategy": "prefer_ipv4"
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct-out"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "proxy-out",
+      "server": "sulfur.keelfy.dev",
+      "server_port": 443,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "password": "xxx",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "xxx"
+      }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "rule_set": "antizapret",
+        "outbound": "proxy-out"
+      },
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "antizapret",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://github.com/savely-krasovsky/antizapret-sing-box/releases/latest/download/antizapret.srs",
+        "download_detour": "proxy-out"
+      }
+    ],
+    "auto_detect_interface": "true"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true
+    }
+  }
+}
