@@ -19,7 +19,7 @@
     ],
     "rules": [
       {
-        "domain": "your.server.example.com",
+        "domain": "sulfur.keelfy.dev",
         "server": "local-dns"
       },
       {
