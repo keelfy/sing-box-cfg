@@ -1,0 +1,68 @@
+{
+    "version": 2,
+    "rules": [
+        {
+            "domain_suffix": "discord.com"
+        },
+        {
+            "domain_suffix": "discord.gg"
+        },
+        {
+            "domain_suffix": "dis.gd"
+        },
+        {
+            "domain_suffix": "discord.co"
+        },
+        {
+            "domain_suffix": "discordapp.com"
+        },
+        {
+            "domain_suffix": "discordapp.net"
+        },
+        {
+            "domain_suffix": "discord.media"
+        },
+        {
+            "domain_suffix": "discord-attachments-uploads-prd.storage.googleapis.com"
+        },
+        {
+            "domain_suffix": "ipinfo.io"
+        },
+        {
+            "process_name": "Discord.exe"
+        },
+        {
+            "domain_suffix": "youtube.com"
+        },
+        {
+            "domain_suffix": "googlevideo.com"
+        },
+        {
+            "domain_suffix": "nhacmp3youtube.com"
+        },
+        {
+            "domain_suffix": ".1e100.net"
+        },
+        {
+            "domain_suffix": "ytimg.com"
+        },
+        {
+            "domain_suffix": "youtu.be"
+        },
+        {
+            "domain_suffix": "ggpht.com"
+        },
+        {
+            "domain_suffix": "notion.com"
+        },
+        {
+            "domain_suffix": "notion.co"
+        },
+        {
+            "domain_suffix": "miro.com"
+        },
+        {
+            "domain_suffix": "rutracker.org"
+        }
+    ]
+}
