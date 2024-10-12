@@ -1,5 +1,5 @@
 {
-    "version": 2,
+    "version": 1,
     "rules": [
         {
             "domain_suffix": "discord.com"
@@ -57,6 +57,12 @@
         },
         {
             "domain_suffix": "notion.co"
+        },
+        {
+            "domain_suffix": "notionusercontent.com"
+        },
+        {
+            "domain_suffix": "notion.site"
         },
         {
             "domain_suffix": "miro.com"
