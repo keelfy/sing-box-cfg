@@ -2,6 +2,42 @@
     "version": 1,
     "rules": [
         {
+            "domain_suffix": "2ip.ru"
+        },
+        {
+            "domain_suffix": "ipinfo.io"
+        },
+        {
+            "domain_suffix": "twitter.com"
+        },
+        {
+            "domain_suffix": "twimg.com"
+        },
+        {
+            "domain_suffix": "t.co"
+        },
+        {
+            "domain_suffix": "x.com"
+        },
+        {
+            "domain_suffix": "facebook.com"
+        },
+        {
+            "domain_suffix": "fbcdn.net"
+        },
+        {
+            "domain_suffix": "fb.com"
+        },
+        {
+            "domain_suffix": "messenger.com"
+        },
+        {
+            "domain_suffix": "instagram.com"
+        },
+        {
+            "domain_suffix": "cdninstagram.com"
+        },
+        {
             "domain_suffix": "discord.com"
         },
         {
@@ -26,7 +62,7 @@
             "domain_suffix": "discord-attachments-uploads-prd.storage.googleapis.com"
         },
         {
-            "domain_suffix": "ipinfo.io"
+            "domain_suffix": "discordcdn.com"
         },
         {
             "process_name": "Discord.exe"
@@ -36,6 +72,18 @@
         },
         {
             "domain_suffix": "googlevideo.com"
+        },
+        {
+            "domain_suffix": "googleapis.com"
+        },
+        {
+            "domain_suffix": "gstatic.com"
+        },
+        {
+            "domain_suffix": "l.google.com"
+        },
+        {
+            "domain_suffix": "googleusercontent.com"
         },
         {
             "domain_suffix": "nhacmp3youtube.com"
@@ -56,7 +104,7 @@
             "domain_suffix": "notion.com"
         },
         {
-            "domain_suffix": "notion.co"
+            "domain_suffix": "notion.so"
         },
         {
             "domain_suffix": "notionusercontent.com"

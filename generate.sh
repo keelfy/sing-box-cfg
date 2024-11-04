@@ -1,0 +1,1 @@
+sing-box rule-set compile --output sulfur-custom.srs sulfur-custom.json
