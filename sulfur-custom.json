@@ -2,47 +2,36 @@
     "version": 1,
     "rules": [
         {
-            "mode": "or",
             "domain_suffix": [
                 "2ip.ru",
                 "ipinfo.io"
             ]
         },
         {
-            "mode": "or",
             "domain_suffix": [
                 "twitter.com",
                 "twimg.com",
                 "t.co",
                 "x.com"
-            ],
-            "package_name": "com.twitter.android"
+            ]
         },
         {
-            "mode": "or",
             "domain_suffix": [
                 "facebook.com",
                 "fbcdn.net",
                 "fb.com",
                 "messenger.com"
-            ],
-            "package_name": [
-                "com.facebook.katana",
-                "com.facebook.orca"
             ]
         },
         {
-            "mode": "or",
             "domain_suffix": [
                 "instagram.com",
                 "cdninstagram.com",
                 "ig.me",
                 "igcdn.com"
-            ],
-            "package_name": "com.instagram.android"
+            ]
         },
         {
-            "mode": "or",
             "domain_suffix": [
                 "discord.com",
                 "discord.gg",
@@ -53,12 +42,9 @@
                 "discord.media",
                 "discord-attachments-uploads-prd.storage.googleapis.com",
                 "discordcdn.com"
-            ],
-            "process_name": "Discord.exe",
-            "package_name": "com.discord"
+            ]
         },
         {
-            "mode": "or",
             "domain_suffix": [
                 "youtube.com",
                 "googlevideo.com",
@@ -71,43 +57,33 @@
                 "ytimg.com",
                 "youtu.be",
                 "ggpht.com"
-            ],
-            "package_name": "com.google.android.youtube"
+            ]
         },
         {
-            "mode": "or",
             "domain_suffix": [
                 "notion.com",
                 "notion.so",
                 "notionusercontent.com",
                 "notion.site"
-            ],
-            "process_name": "Notion.exe",
-            "package_name": "notion.id"
+            ]
         },
         {
-            "mode": "or",
             "domain_suffix": [
                 "miro.com"
-            ],
-            "package_name": "com.realtimeboard"
+            ]
         },
         {
-            "mode": "or",
             "domain_suffix": [
                 "canva.com"
-            ],
-            "package_name": "com.canva.editor"
+            ]
         },
         {
-            "mode": "or",
             "domain_suffix": [
                 "rutracker.org",
                 "rutor.org"
             ]
         },
         {
-            "mode": "or",
             "domain": [
                 "audio-ak-spotify-com.akamaized.net",
                 "audio4-ak-spotify-com.akamaized.net",
@@ -132,14 +108,35 @@
                 "spotifycodes.com",
                 "spotifyforbrands.com",
                 "spotifyjobs.com"
-            ],
-            "process_name": "Spotify.exe",
-            "package_name": "com.spotify.music"
+            ]
         },
         {
-            "mode": "or",
-            "domain_suffix": "play.google.com",
-            "package_name": "com.android.vending"
+            "domain_suffix": "play.google.com"
+        },
+        {
+            "domain_suffix": "7tv.app"
+        },
+        {
+            "process_name": [
+                "Discord.exe",
+                "Spotify.exe",
+                "Notion.exe"
+            ]
+        },
+        {
+            "package_name": [
+                "com.twitter.android",
+                "com.facebook.katana",
+                "com.facebook.orca",
+                "com.instagram.android",
+                "com.discord",
+                "com.android.vending",
+                "com.spotify.music",
+                "com.canva.editor",
+                "com.realtimeboard",
+                "com.google.android.youtube",
+                "notion.id"
+            ]
         }
     ]
 }
