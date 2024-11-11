@@ -2,12 +2,14 @@
     "version": 1,
     "rules": [
         {
+            "mode": "or",
             "domain_suffix": [
                 "2ip.ru",
                 "ipinfo.io"
             ]
         },
         {
+            "mode": "or",
             "domain_suffix": [
                 "twitter.com",
                 "twimg.com",
@@ -17,6 +19,7 @@
             "package_name": "com.twitter.android"
         },
         {
+            "mode": "or",
             "domain_suffix": [
                 "facebook.com",
                 "fbcdn.net",
@@ -29,6 +32,7 @@
             ]
         },
         {
+            "mode": "or",
             "domain_suffix": [
                 "instagram.com",
                 "cdninstagram.com",
@@ -38,6 +42,7 @@
             "package_name": "com.instagram.android"
         },
         {
+            "mode": "or",
             "domain_suffix": [
                 "discord.com",
                 "discord.gg",
@@ -53,6 +58,7 @@
             "package_name": "com.discord"
         },
         {
+            "mode": "or",
             "domain_suffix": [
                 "youtube.com",
                 "googlevideo.com",
@@ -69,6 +75,7 @@
             "package_name": "com.google.android.youtube"
         },
         {
+            "mode": "or",
             "domain_suffix": [
                 "notion.com",
                 "notion.so",
@@ -79,24 +86,28 @@
             "package_name": "notion.id"
         },
         {
+            "mode": "or",
             "domain_suffix": [
                 "miro.com"
             ],
             "package_name": "com.realtimeboard"
         },
         {
+            "mode": "or",
             "domain_suffix": [
                 "canva.com"
             ],
             "package_name": "com.canva.editor"
         },
         {
+            "mode": "or",
             "domain_suffix": [
                 "rutracker.org",
                 "rutor.org"
             ]
         },
         {
+            "mode": "or",
             "domain": [
                 "audio-ak-spotify-com.akamaized.net",
                 "audio4-ak-spotify-com.akamaized.net",
@@ -126,6 +137,7 @@
             "package_name": "com.spotify.music"
         },
         {
+            "mode": "or",
             "domain_suffix": "play.google.com",
             "package_name": "com.android.vending"
         }
