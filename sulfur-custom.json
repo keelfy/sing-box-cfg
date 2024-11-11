@@ -117,11 +117,13 @@
             "domain_suffix": "7tv.app"
         },
         {
-            "process_name": [
-                "Discord.exe",
-                "Spotify.exe",
-                "Notion.exe"
-            ]
+            "process_name": "Discord.exe"
+        },
+        {
+            "process_name": "Spotify.exe"
+        },
+        {
+            "process_name": "Notion.exe"  
         },
         {
             "package_name": [
