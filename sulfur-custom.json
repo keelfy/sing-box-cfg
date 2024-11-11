@@ -2,163 +2,132 @@
     "version": 1,
     "rules": [
         {
-            "domain_suffix": "2ip.ru"
+            "domain_suffix": [
+                "2ip.ru",
+                "ipinfo.io"
+            ]
         },
         {
-            "domain_suffix": "ipinfo.io"
+            "domain_suffix": [
+                "twitter.com",
+                "twimg.com",
+                "t.co",
+                "x.com"
+            ],
+            "package_name": "com.twitter.android"
         },
         {
-            "domain_suffix": "twitter.com"
+            "domain_suffix": [
+                "facebook.com",
+                "fbcdn.net",
+                "fb.com",
+                "messenger.com"
+            ],
+            "package_name": [
+                "com.facebook.katana",
+                "com.facebook.orca"
+            ]
         },
         {
-            "domain_suffix": "twimg.com"
+            "domain_suffix": [
+                "instagram.com",
+                "cdninstagram.com",
+                "ig.me",
+                "igcdn.com"
+            ],
+            "package_name": "com.instagram.android"
         },
         {
-            "domain_suffix": "t.co"
+            "domain_suffix": [
+                "discord.com",
+                "discord.gg",
+                "dis.gd",
+                "discord.co",
+                "discordapp.com",
+                "discordapp.net",
+                "discord.media",
+                "discord-attachments-uploads-prd.storage.googleapis.com",
+                "discordcdn.com"
+            ],
+            "process_name": "Discord.exe",
+            "package_name": "com.discord"
         },
         {
-            "domain_suffix": "x.com"
+            "domain_suffix": [
+                "youtube.com",
+                "googlevideo.com",
+                "googleapis.com",
+                "gstatic.com",
+                "l.google.com",
+                "googleusercontent.com",
+                "nhacmp3youtube.com",
+                ".1e100.net",
+                "ytimg.com",
+                "youtu.be",
+                "ggpht.com"
+            ],
+            "package_name": "com.google.android.youtube"
         },
         {
-            "domain_suffix": "facebook.com"
+            "domain_suffix": [
+                "notion.com",
+                "notion.so",
+                "notionusercontent.com",
+                "notion.site"
+            ],
+            "process_name": "Notion.exe",
+            "package_name": "notion.id"
         },
         {
-            "domain_suffix": "fbcdn.net"
+            "domain_suffix": [
+                "miro.com"
+            ],
+            "package_name": "com.realtimeboard"
         },
         {
-            "domain_suffix": "fb.com"
+            "domain_suffix": [
+                "canva.com"
+            ],
+            "package_name": "com.canva.editor"
         },
         {
-            "domain_suffix": "messenger.com"
+            "domain_suffix": [
+                "rutracker.org",
+                "rutor.org"
+            ]
         },
         {
-            "domain_suffix": "instagram.com"
+            "domain": [
+                "audio-ak-spotify-com.akamaized.net",
+                "audio4-ak-spotify-com.akamaized.net",
+                "cdn-spotify-experiments.conductrics.com",
+                "heads-ak-spotify-com.akamaized.net",
+                "heads4-ak-spotify-com.akamaized.net",
+                "spotify.com.edgesuite.net",
+                "spotify.map.fastly.net",
+                "spotify.map.fastlylb.net"
+            ],
+            "domain_suffix": [
+                "spotify.com",
+                "byspotify.com",
+                "pscdn.co",
+                "scdn.co",
+                "spoti.fi",
+                "spotify-everywhere.com",
+                "spotify.design",
+                "spotifycdn.com",
+                "spotifycdn.net",
+                "spotifycharts.com",
+                "spotifycodes.com",
+                "spotifyforbrands.com",
+                "spotifyjobs.com"
+            ],
+            "process_name": "Spotify.exe",
+            "package_name": "com.spotify.music"
         },
         {
-            "domain_suffix": "cdninstagram.com"
-        },
-        {
-            "domain_suffix": "discord.com"
-        },
-        {
-            "domain_suffix": "discord.gg"
-        },
-        {
-            "domain_suffix": "dis.gd"
-        },
-        {
-            "domain_suffix": "discord.co"
-        },
-        {
-            "domain_suffix": "discordapp.com"
-        },
-        {
-            "domain_suffix": "discordapp.net"
-        },
-        {
-            "domain_suffix": "discord.media"
-        },
-        {
-            "domain_suffix": "discord-attachments-uploads-prd.storage.googleapis.com"
-        },
-        {
-            "domain_suffix": "discordcdn.com"
-        },
-        {
-            "process_name": "Discord.exe"
-        },
-        {
-            "domain_suffix": "youtube.com"
-        },
-        {
-            "domain_suffix": "googlevideo.com"
-        },
-        {
-            "domain_suffix": "googleapis.com"
-        },
-        {
-            "domain_suffix": "gstatic.com"
-        },
-        {
-            "domain_suffix": "l.google.com"
-        },
-        {
-            "domain_suffix": "googleusercontent.com"
-        },
-        {
-            "domain_suffix": "nhacmp3youtube.com"
-        },
-        {
-            "domain_suffix": ".1e100.net"
-        },
-        {
-            "domain_suffix": "ytimg.com"
-        },
-        {
-            "domain_suffix": "youtu.be"
-        },
-        {
-            "domain_suffix": "ggpht.com"
-        },
-        {
-            "domain_suffix": "notion.com"
-        },
-        {
-            "domain_suffix": "notion.so"
-        },
-        {
-            "domain_suffix": "notionusercontent.com"
-        },
-        {
-            "domain_suffix": "notion.site"
-        },
-        {
-            "domain_suffix": "miro.com"
-        },
-        {
-            "domain_suffix": "rutracker.org"
-        },
-        {
-            "domain_suffix": "byspotify.com"
-        },
-        {
-            "domain_suffix": "pscdn.co"
-        },
-        {
-            "domain_suffix": "scdn.co"
-        },
-        {
-            "domain_suffix": "spoti.fi"
-        },
-        {
-            "domain_suffix": "spotify-everywhere.com"
-        },
-        {
-            "domain_suffix": "spotify.com"
-        },
-        {
-            "domain_suffix": "spotify.design"
-        },
-        {
-            "domain_suffix": "spotifycdn.com"
-        },
-        {
-            "domain_suffix": "spotifycdn.net"
-        },
-        {
-            "domain_suffix": "spotifycharts.com"
-        },
-        {
-            "domain_suffix": "spotifycodes.com"
-        },
-        {
-            "domain_suffix": "spotifyforbrands.com"
-        },
-        {
-            "domain_suffix": "spotifyjobs.com"
-        },
-        {
-            "domain_suffix": "canva.com"
+            "domain_suffix": "play.google.com",
+            "package_name": "com.android.vending"
         }
     ]
 }
