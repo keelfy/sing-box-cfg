@@ -118,17 +118,6 @@
         },
         { "process_name": "Discord.exe" },
         { "process_name": "Spotify.exe" },
-        { "process_name": "Notion.exe" },
-        { "package_name": "com.twitter.android" },
-        { "package_name": "com.facebook.katana" },
-        { "package_name": "com.facebook.orca" },
-        { "package_name": "com.instagram.android" },
-        { "package_name": "com.discord" },
-        { "package_name": "com.android.vending" },
-        { "package_name": "com.spotify.music" },
-        { "package_name": "com.canva.editor" },
-        { "package_name": "com.realtimeboard" },
-        { "package_name": "com.google.android.youtube" },
-        { "package_name": "notion.id" }
+        { "process_name": "Notion.exe" }
     ]
 }
