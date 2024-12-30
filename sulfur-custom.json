@@ -2,10 +2,10 @@
     "version": 1,
     "rules": [
         {
-            "domain_suffix": [
-                "2ip.ru",
-                "ipinfo.io"
-            ]
+            "domain_suffix": "2ip.ru"
+        },
+        {
+            "domain_suffix": "ipinfo.io"
         },
         {
             "domain_suffix": [
@@ -116,8 +116,14 @@
         {
             "domain_suffix": "7tv.app"
         },
-        { "process_name": "Discord.exe" },
-        { "process_name": "Spotify.exe" },
-        { "process_name": "Notion.exe" }
+        {
+            "process_name": "Discord.exe"
+        },
+        {
+            "process_name": "Spotify.exe"
+        },
+        {
+            "process_name": "Notion.exe"
+        }
     ]
 }
