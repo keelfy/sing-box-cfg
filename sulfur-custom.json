@@ -171,6 +171,9 @@
         },
         {
             "process_name": "Notion.exe"
+        },
+        {
+            "ip_cidr": "162.33.20.229"
         }
     ]
 }
