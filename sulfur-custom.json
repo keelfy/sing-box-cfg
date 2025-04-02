@@ -164,6 +164,9 @@
             "domain_suffix": "7tv.app"
         },
         {
+            "domain_suffix": "mc.keelfy.dev"
+        },
+        {
             "process_name": "Discord.exe"
         },
         {
@@ -173,7 +176,12 @@
             "process_name": "Notion.exe"
         },
         {
-            "ip_cidr": "162.33.20.229"
+            "ip_cidr": "162.33.20.229",
+            "port_range": "27240:27244"
+        },
+        {
+            "source_ip_cidr": "162.33.20.229",
+            "source_port_range": "27240:27244"
         }
     ]
 }
