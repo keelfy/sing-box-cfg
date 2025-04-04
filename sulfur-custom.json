@@ -176,18 +176,13 @@
             "process_name": "Notion.exe"
         },
         {
-            "ip_cidr": "162.33.20.229",
-            "port_range": [
-                "27240:27244",
-                "27345:27349"
-            ]
+            "ip_cidr": "162.33.20.229"
         },
         {
-            "source_ip_cidr": "162.33.20.229",
-            "source_port_range": [
-                "27240:27244",
-                "27345:27349"
-            ]
+            "domain_suffix": "mc.keelfy.dev"
+        },
+        {
+            "source_ip_cidr": "162.33.20.229"
         }
     ]
 }
