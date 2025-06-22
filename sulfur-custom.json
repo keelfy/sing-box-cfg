@@ -131,6 +131,9 @@
             "domain_suffix": "rutor.org"
         },
         {
+            "domain_suffix": "mandrillapp.com"
+        },
+        {
             "domain": [
                 "audio-ak-spotify-com.akamaized.net",
                 "audio4-ak-spotify-com.akamaized.net",
