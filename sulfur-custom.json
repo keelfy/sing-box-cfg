@@ -134,6 +134,12 @@
             "domain_suffix": "mandrillapp.com"
         },
         {
+            "domain_suffix": "syncplay.pl"
+        },
+        {
+            "ip_cidr": "151.80.32.178"
+        },
+        {
             "domain": [
                 "audio-ak-spotify-com.akamaized.net",
                 "audio4-ak-spotify-com.akamaized.net",
